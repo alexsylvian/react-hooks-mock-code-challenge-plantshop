@@ -53,6 +53,18 @@
       "image": "https://upload.wikimedia.org/wikipedia/en/8/87/Jessie_%28Toy_Story%29.png",
       "price": "3",
       "id": 9
+    },
+    {
+      "name": "1",
+      "image": "2",
+      "price": "3",
+      "id": 10
+    },
+    {
+      "name": "3",
+      "image": "5",
+      "price": "6",
+      "id": 11
     }
   ]
 }

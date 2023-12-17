@@ -1,6 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 
-function Search() {
+function Search({ setSearchInput }) {
+  const [localSearchInput, setLocalSearchInput] = useState("")
+
+  function handleSearch(e){
+    setLocalSearchInput(e.target.value)
+    setSearchInput(e.target.value)
+  }
+
   return (
     <div className="searchbar">
       <label htmlFor="search">Search Plants:</label>
@@ -8,7 +15,8 @@ function Search() {
         type="text"
         id="search"
         placeholder="Type a name to search..."
-        onChange={(e) => console.log("Searching...")}
+        value={localSearchInput}
+        onChange={handleSearch}
       />
     </div>
   );
