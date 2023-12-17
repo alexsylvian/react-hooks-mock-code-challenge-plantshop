@@ -41,6 +41,18 @@
       "name": "Fiddle Leaf Fig",
       "image": "./images/fiddle-leaf-fig.jpg",
       "price": 55
+    },
+    {
+      "name": "1",
+      "image": "2",
+      "price": "3",
+      "id": 8
+    },
+    {
+      "name": "Dude",
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/87/Jessie_%28Toy_Story%29.png",
+      "price": "3",
+      "id": 9
     }
   ]
 }
